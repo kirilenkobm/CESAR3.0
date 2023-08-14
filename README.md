@@ -1,5 +1,7 @@
 # CESAR3.0
 
+![version-badge](https://img.shields.io/badge/version-3.0.0--development-orange)
+
 Reimplementation of the [CESAR2.0](https://github.com/hillerlab/CESAR2.0) HMM based exon realigner.
 [Scientific publication](https://academic.oup.com/bioinformatics/article/33/24/3985/4095639) Sharma et. al.
 
