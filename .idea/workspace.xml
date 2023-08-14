@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6aade1d-ac29-44fd-ba45-8716ffc39e23" name="Changes" comment="Added input file parser">
+    <list default="true" id="e6aade1d-ac29-44fd-ba45-8716ffc39e23" name="Changes" comment="Managed versioning based git tags">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/EmissionTable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HMM.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProfileEntry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/State.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Transition.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692026833813</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Managed versioning based git tags">
+      <created>1692029516263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692029516263</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +166,7 @@
     <MESSAGE value="intermediate commit - chaotic structure for now" />
     <MESSAGE value="Intermediate reset" />
     <MESSAGE value="Added input file parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added input file parser" />
+    <MESSAGE value="Managed versioning based git tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Managed versioning based git tags" />
   </component>
 </project>

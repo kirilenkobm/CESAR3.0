@@ -62,6 +62,7 @@ tasks.register("generateVersionFile") {
             object Version {
                 const val CURRENT = "$gitVersion"
             }
+            
         """.trimIndent()
         versionFile.writeText(content)
     }
