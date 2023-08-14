@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6aade1d-ac29-44fd-ba45-8716ffc39e23" name="Changes" comment="init commit - CLI args">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Constants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Sequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithm/EmissionTable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithm/HiddenMarkovModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithm/Literal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithm/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithm/Transition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithm/Viterbi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/class EmissionTable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e6aade1d-ac29-44fd-ba45-8716ffc39e23" name="Changes" comment="intermediate commit - chaotic structure for now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cesar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Cesar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Sequence.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/State.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/EmissionTable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/HiddenMarkovModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/Literal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/State.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/Transition.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/Viterbi.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class EmissionTable.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CESAR3" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,20 +67,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/krlnk/Developer/CESAR3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/algorithm" />
@@ -93,7 +115,9 @@
       <option name="presentableId" value="Default" />
       <updated>1690845069150</updated>
       <workItem from="1690845070567" duration="4464000" />
-      <workItem from="1690889004501" duration="5410000" />
+      <workItem from="1690889004501" duration="7353000" />
+      <workItem from="1690904258429" duration="11000" />
+      <workItem from="1690904339703" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - CLI args">
       <option name="closed" value="true" />
@@ -103,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690846342457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="intermediate commit - chaotic structure for now">
+      <option name="closed" value="true" />
+      <created>1690895450842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690895450842</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit - CLI args" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit - CLI args" />
+    <MESSAGE value="intermediate commit - chaotic structure for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="intermediate commit - chaotic structure for now" />
   </component>
 </project>
