@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6aade1d-ac29-44fd-ba45-8716ffc39e23" name="Changes" comment="intermediate commit - chaotic structure for now">
+    <list default="true" id="e6aade1d-ac29-44fd-ba45-8716ffc39e23" name="Changes" comment="Intermediate reset">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/FastaParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Literal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Sequence.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Sequence.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/State.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/EmissionTable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/HiddenMarkovModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/Literal.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/State.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/Transition.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithm/Viterbi.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/class EmissionTable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cesar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Cesar.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -96,6 +91,8 @@
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="CESAR3.main" />
+      <option name="PROGRAM_PARAMETERS" value="extra/example3.fa" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690895450842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Intermediate reset">
+      <created>1692024287638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692024287638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit - CLI args" />
     <MESSAGE value="intermediate commit - chaotic structure for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="intermediate commit - chaotic structure for now" />
+    <MESSAGE value="Intermediate reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate reset" />
   </component>
 </project>
